@@ -34,7 +34,7 @@ def fetch_weather(apiKey, city, measure='metric'):
         
 ## Main program fuction
 if __name__ == '__main__':
-    apiKey = '6a6cd31118d93edfdadf4a3e70a523b0'
+    apiKey = '______________________'
     cities = ['Paris', 'Tokyo', 'Sydney', 'London']
     fetch_weather(apiKey,'Pretoria')
     fetch_weather(apiKey,'New York','imperial')               
